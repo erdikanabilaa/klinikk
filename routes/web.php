@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('testing', function () {
     return view('profile');
 });
+Route::get('/coba', function () {
+    return view('login');
+});
