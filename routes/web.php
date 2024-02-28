@@ -19,6 +19,6 @@ Route::get('/', function () {
 Route::get('testing', function () {
     return view('profile');
 });
-Route::get('/coba', function () {
+Route::get('/login', function () {
     return view('login');
 });
